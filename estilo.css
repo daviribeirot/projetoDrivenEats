@@ -48,6 +48,7 @@ h3 {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .topo p {
@@ -155,10 +156,56 @@ img {
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.018em;
-    color: #FFFFFF;
-    background: #CBCBCB;
     border-radius: 50px;
     width: 364px;
     height: 61px;
     border: none;
+    background: #CBCBCB;
+    color: white;
+}
+
+a {
+    font-style: none;
+    color: white;
+    text-decoration: none;
+}
+.botao-verde button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    border: none;
+    background: #32B72F;
+    color: white;
+    
+}
+
+.preço-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preço-check ion-icon{
+    margin-top: 15px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 50%;
+    width: 15.44px;
+    height: 15.44px;
+    background: #32B72F;
+}
+
+.check {
+    visibility: hidden;
+}
+
+.selecionado {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
 }
